@@ -6,9 +6,7 @@ public class App {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter row number: ");
 		int row=sc.nextInt();
-		
-		System.out.print("Enter column number: ");
-		int col=sc.nextInt();
+		int col=row+(row-1);
 		
 		sc.close();
 		
